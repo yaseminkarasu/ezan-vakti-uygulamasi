@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+.container {
+  width: 800px;
+  margin: 30px auto;
+  text-align: center;
+  padding: 25px;
+  border-radius: 25px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.4);
+  position: relative;
+  overflow: hidden;
+  background-image:
+    linear-gradient(rgba(15, 32, 39, 0.82), rgba(15, 32, 39, 0.82)),
+    url("/zeytinburnu.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 10px 0 20px;
+  line-height: 1.2;
+}
+
+h2, h3 {
+  margin: 10px 0;
+}
+
+.container > h1:nth-of-type(2) {
+  font-size: 55px;
+  background: white;
+  color: #203a43;
+  border-radius: 18px;
+  padding: 15px;
+}
+
+.card {
+  background: white;
+  color: #222;
+  border-radius: 18px;
+  padding: 15px 25px;
+  margin-top: 20px;
+}
+
+.card p {
+  display: flex;
+  justify-content: space-between;
+  font-size: 21px;
+  margin: 12px 0;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+}
+
+.card p:last-child {
+  border-bottom: none;
+}
+
+.card p::first-letter {
+  font-weight: bold;
+}
+
+.timer {
+  font-size: 64px;
+  font-weight: bold;
+  background: #1a1a1a;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 20px 0;
+}
+
+.card{
+    box-shadow:0 0 20px rgba(0,0,0,.3);
+}
+
